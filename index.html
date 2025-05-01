@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fit mit Tay.com</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f9ff;
+      color: #1a1a1a;
+    }
+    header {
+      background-color: #007BFF;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #0056b3;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #007BFF;
+    }
+    .card {
+      background: white;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #f1f1f1;
+      padding: 1rem;
+      text-align: center;
+      color: #666;
+    }
+    iframe {
+      width: 100%;
+      height: 315px;
+      border: none;
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 0.8rem;
+      margin-top: 0.5rem;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+    button {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fit mit Tay.com</h1>
+    <p>Dein Weg zu mehr Energie, Gesundheit und Erfolg!</p>
+  </header>
+
+  <nav>
+    <a href="#produkte">Produkte</a>
+    <a href="#erfahrungen">Erfahrungen</a>
+    <a href="#mitmachen">Mitmachen</a>
+  </nav>
+
+  <section id="produkte">
+    <h2>Produkte</h2>
+    <div class="card">
+      <p>Hier kannst du Bilder oder PDFs zu deinen Produkten hochladen.</p>
+      <p><strong>Beispiel:</strong> Produktname, kurze Beschreibung (kann per KI automatisch erstellt werden)</p>
+    </div>
+  </section>
+
+  <section id="erfahrungen">
+    <h2>Erfahrungsberichte</h2>
+    <div class="card">
+      <iframe src="https://www.youtube.com/embed/DEIN_VIDEO_ID" allowfullscreen></iframe>
+      <p><strong>Name:</strong> Max Mustermann</p>
+      <p><strong>Zusammenfassung:</strong> Diese Zusammenfassung könnte automatisch von KI erzeugt werden.</p>
+    </div>
+  </section>
+
+  <section id="mitmachen">
+    <h2>Werde Teil des Teams</h2>
+    <div class="card">
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-Mail</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="nachricht">Warum möchtest du mitmachen?</label>
+        <textarea id="nachricht" name="nachricht" rows="4"></textarea>
+
+        <button type="submit">Absenden</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Fit mit Tay.com</p>
+  </footer>
+</body>
+</html>
